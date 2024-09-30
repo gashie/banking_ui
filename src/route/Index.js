@@ -159,6 +159,7 @@ import Success from "../pages/auth/Success";
 import Layout from "../layout/Index";
 import LayoutNoSidebar from "../layout/Index-nosidebar";
 import TransferPapps from "../pages/panel/online-banking/Transfer_Papps";
+import AchNrtTransfer from "../pages/panel/online-banking/Ach_Nrt";
 
 const Pages = () => {
   const location = useLocation();
@@ -226,6 +227,7 @@ const Pages = () => {
          <Route path="third_party" element={<Transfer_Third_Party />}></Route>
          <Route path="momo_transfer" element={<Transfer_Momo />}></Route>
          <Route path="papps_transfer" element={<TransferPapps />}></Route>
+         <Route path="ach_nrt_transfer" element={<AchNrtTransfer />}></Route>
 
          <Route path="cheque_request" element={<ChequeBookRequest />}></Route>
          <Route path="mobile_banking_request" element={<Mobile_Banking_Request />}></Route>

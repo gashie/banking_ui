@@ -182,7 +182,7 @@ const menu = [
           },
           {
             text: "ACH & NRT",
-            link: "/components/util-border",
+            link: "/ach_nrt_transfer",
           },
           {
             text: "PAPPS",
