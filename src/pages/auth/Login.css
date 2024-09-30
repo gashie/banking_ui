@@ -1,0 +1,157 @@
+ /* Basic Reset */
+ * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body, html {
+    height: 100%;
+    font-family: Arial, sans-serif;
+  }
+  
+  /* Flexbox Layout to Push Footer to the Bottom */
+  body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+  }
+  
+  main {
+    flex: 1;
+    background-color: #13163f;
+  }
+
+  /* Header Styles */
+  header {
+    background-color: white;
+    padding: 20px 0;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  }
+
+  .container {
+    width: 90%;
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+
+  header .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  nav a {
+    color: #13163f;
+    text-decoration: none;
+    font-size: 14px;
+    margin: 0 15px;
+    transition: color 0.3s ease;
+  }
+
+  nav a:hover {
+    color: #3073b9;
+  }
+
+  /* Main Section */
+  section {
+    background-image: url('https://omnibsic.com.gh/img/banner/3.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 600px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 30px 0;
+    background-color: #13163f;
+  }
+
+  .form-container {
+    background-color: white;
+    padding: 30px;
+    border-radius: 8px;
+    max-width: 400px;
+    width: 100%;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    border-left: 5px solid #3073b9;
+  }
+
+  .form-container h2 {
+    font-size: 24px;
+    color: #13163f;
+    margin-bottom: 20px;
+  }
+
+  .form-container p {
+    color: #6c757d;
+    margin-bottom: 20px;
+  }
+
+  .form-container input {
+    width: 100%;
+    padding: 12px;
+    margin-bottom: 20px;
+    border-radius: 4px;
+    border: 1px solid #ced4da;
+    font-size: 14px;
+    color: #495057;
+  }
+
+  .form-container input:focus {
+    border-color: #3073b9;
+    outline: none;
+  }
+
+  .form-container button {
+    width: 100%;
+    padding: 12px;
+    background-color: #3073b9;
+    color: white;
+    font-size: 16px;
+    font-weight: bold;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+
+  .form-container button:hover {
+    background-color: #245a8a;
+  }
+
+  .form-container a {
+    color: #3073b9;
+    text-decoration: none;
+    font-size: 14px;
+  }
+
+  .form-container a:hover {
+    text-decoration: underline;
+  }
+
+  /* Footer */
+  footer {
+    background-color: #f8f9fa;
+    padding: 20px 0;
+    border-top: 1px solid #e9ecef;
+  }
+
+  footer .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 14px;
+    color: #6c757d;
+  }
+
+  footer a {
+    color: #13163f;
+    text-decoration: none;
+    margin: 0 10px;
+    transition: color 0.3s ease;
+  }
+
+  footer a:hover {
+    color: #3073b9;
+    text-decoration: underline;
+  }
