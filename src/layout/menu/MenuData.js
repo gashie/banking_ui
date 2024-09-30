@@ -304,11 +304,11 @@ const menu = [
       },
     ],
   },
-  // {
-  //   icon: "view-col",
-  //   text: "Investment",
-  //   link: "/pricing-table",
-  // },
+  {
+    icon: "account-setting-fill",
+    text: "Kyc",
+    link: "/kyc",
+  },
   // {
   //   icon: "img",
   //   text: "Image Gallery",

@@ -24,7 +24,7 @@ import RequestHistory from "../pages/panel/online-banking/RequestHistory";
 import InvestmentHistory from "../pages/panel/online-banking/InvestmentHistory";
 import FixedDeposit from "../pages/panel/online-banking/Fixed_Deposit";
 import Tbills_Request from "../pages/panel/online-banking/Tbills_Request";
-
+import KycWelcome from "../pages/panel/online-banking/Welcome";
 // my imports ends
 
 import CryptoDashboard from "../pages/panel/crypto-panel/Index";
@@ -220,6 +220,7 @@ const Pages = () => {
 
          {/* <Route path="acc_summary" element={<Acc_Summary />}></Route> */}
 
+         <Route path="kyc" element={<KycWelcome />}></Route>
 
          <Route path="acc_statement" element={<Acc_Statement />}></Route>
          <Route path="acc_summary" element={<Acc_Summary />}></Route>
@@ -230,7 +231,7 @@ const Pages = () => {
          <Route path="papps_transfer" element={<TransferPapps />}></Route>
          <Route path="ach_nrt_transfer" element={<AchNrtTransfer />}></Route>
          <Route path="intl_transfer" element={<IntlTransfers />}></Route>
-
+ 
          <Route path="cheque_request" element={<ChequeBookRequest />}></Route>
          <Route path="mobile_banking_request" element={<Mobile_Banking_Request />}></Route>
          <Route path="request_history" element={<RequestHistory />}></Route>
