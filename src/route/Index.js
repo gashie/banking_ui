@@ -160,6 +160,7 @@ import Layout from "../layout/Index";
 import LayoutNoSidebar from "../layout/Index-nosidebar";
 import TransferPapps from "../pages/panel/online-banking/Transfer_Papps";
 import AchNrtTransfer from "../pages/panel/online-banking/Ach_Nrt";
+import IntlTransfers from "../pages/panel/online-banking/International_Transfer";
 
 const Pages = () => {
   const location = useLocation();
@@ -228,6 +229,7 @@ const Pages = () => {
          <Route path="momo_transfer" element={<Transfer_Momo />}></Route>
          <Route path="papps_transfer" element={<TransferPapps />}></Route>
          <Route path="ach_nrt_transfer" element={<AchNrtTransfer />}></Route>
+         <Route path="intl_transfer" element={<IntlTransfers />}></Route>
 
          <Route path="cheque_request" element={<ChequeBookRequest />}></Route>
          <Route path="mobile_banking_request" element={<Mobile_Banking_Request />}></Route>

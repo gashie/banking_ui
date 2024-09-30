@@ -176,10 +176,10 @@ const menu = [
         text: "External Transfer",
         active: false,
         subMenu: [
-          {
-            text: "Instant Transfer",
-            link: "/components/util-border",
-          },
+          // {
+          //   text: "Instant Transfer",
+          //   link: "/components/util-border",
+          // },
           {
             text: "ACH & NRT",
             link: "/ach_nrt_transfer",
@@ -190,7 +190,7 @@ const menu = [
           },
           {
             text: "International Transfers",
-            link: "/components/util-border",
+            link: "/intl_transfer",
           },
           {
             text: "Mobile Money (Momo)",
